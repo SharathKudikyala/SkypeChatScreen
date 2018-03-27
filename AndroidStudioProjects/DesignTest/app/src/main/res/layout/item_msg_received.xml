@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginRight="4dp"
+        android:background="@drawable/circle"
+        android:gravity="center"
+        android:text="SW"
+        android:textColor="@android:color/white"
+        android:textSize="10sp"
+        android:layout_marginEnd="4dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_sender_name_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="Sharath Weaver, 00:00 AM"
+            android:textColor="@color/steel"
+            android:textSize="11sp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_msg_in">
+        <TextView
+            android:id="@+id/txt_msg_received"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_msg_in"
+            android:padding="8dp"
+            android:text="Let me ask another one. If all the animals went to the lion’s birthday party and one animal went missing. Which one would it be?"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:paddingEnd="30dp"
+            android:paddingRight="30dp"
+            android:maxWidth="240dp"/>
+            <ImageButton
+                android:id="@+id/ib_smiley"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:src="@drawable/ic_smiley"
+                android:padding="4dp"
+                android:background="@android:color/transparent"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

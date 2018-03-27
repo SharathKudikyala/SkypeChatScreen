@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="end"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/txt_sent_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00 AA"
+        android:textSize="11sp"
+        android:textColor="#555555"
+        android:layout_marginBottom="2dp"/>
+    <TextView
+        android:id="@+id/txt_msg_sent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi! How are you?"
+        android:maxWidth="240dp"
+        android:textSize="14sp"
+        android:background="@drawable/bg_msg_out"
+        android:padding="8dp"/>
+</LinearLayout>

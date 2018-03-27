@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Design Test</string>
+    <string name="group_name">Group Name</string>
+    <string name="subtitle">Member1, Member2...</string>
+    <string name="hint_type_msg">Type a message here</string>
+    <string name="voice">Voice</string>
+    <string name="camera">camera</string>
+</resources>
